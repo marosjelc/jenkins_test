@@ -12,6 +12,7 @@ pipeline {
         stage('PPrvy') {
           steps {
             echo 'paralel v prvom ahoj'
+            sh 'echo "skuska"'
           }
         }
 
